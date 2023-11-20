@@ -1,9 +1,9 @@
-package dev.kitnet.documentarapi.domain.entity;
+package dev.kitnet.documentarapi.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonView;
-import dev.kitnet.documentarapi.rest.dto.PessoaPageDTO;
-import jakarta.persistence.*;
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;

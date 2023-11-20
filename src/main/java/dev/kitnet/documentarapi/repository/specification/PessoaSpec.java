@@ -1,12 +1,11 @@
 package dev.kitnet.documentarapi.repository.specification;
 
-import dev.kitnet.documentarapi.domain.entity.Pessoa;
+import dev.kitnet.documentarapi.domain.model.Pessoa;
 import dev.kitnet.documentarapi.repository.specification.filters.PessoaFiltro;
 import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.util.StringUtils;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package dev.kitnet.documentarapi.domain.entity;
+package dev.kitnet.documentarapi.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;

@@ -1,4 +1,4 @@
-package dev.kitnet.documentarapi.Exceptions;
+package dev.kitnet.documentarapi.exceptions;
 
 public class NotFoundException extends BusinessException{
     public NotFoundException(String message) {

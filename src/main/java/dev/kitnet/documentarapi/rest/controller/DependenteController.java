@@ -1,6 +1,6 @@
 package dev.kitnet.documentarapi.rest.controller;
 
-import dev.kitnet.documentarapi.domain.entity.Dependente;
+import dev.kitnet.documentarapi.domain.model.Dependente;
 import dev.kitnet.documentarapi.rest.dto.DependenteSaveDTO;
 import dev.kitnet.documentarapi.service.DependenteService;
 import jakarta.validation.Valid;

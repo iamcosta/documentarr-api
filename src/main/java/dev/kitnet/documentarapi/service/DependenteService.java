@@ -1,8 +1,8 @@
 package dev.kitnet.documentarapi.service;
 
-import dev.kitnet.documentarapi.Exceptions.BusinessException;
-import dev.kitnet.documentarapi.domain.entity.Dependente;
-import dev.kitnet.documentarapi.domain.entity.Responsavel;
+import dev.kitnet.documentarapi.exceptions.BusinessException;
+import dev.kitnet.documentarapi.domain.model.Dependente;
+import dev.kitnet.documentarapi.domain.model.Responsavel;
 import dev.kitnet.documentarapi.repository.DependenteRepository;
 import dev.kitnet.documentarapi.rest.dto.DependenteSaveDTO;
 import lombok.RequiredArgsConstructor;

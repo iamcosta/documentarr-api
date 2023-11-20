@@ -1,6 +1,6 @@
 package dev.kitnet.documentarapi.rest.controller;
 
-import dev.kitnet.documentarapi.domain.entity.Pessoa;
+import dev.kitnet.documentarapi.domain.model.Pessoa;
 import dev.kitnet.documentarapi.repository.specification.filters.PessoaFiltro;
 import dev.kitnet.documentarapi.rest.dto.PageDTO;
 import dev.kitnet.documentarapi.rest.dto.PessoaPageDTO;

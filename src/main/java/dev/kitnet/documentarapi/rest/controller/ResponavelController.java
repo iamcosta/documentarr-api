@@ -1,7 +1,7 @@
 package dev.kitnet.documentarapi.rest.controller;
 
 
-import dev.kitnet.documentarapi.domain.entity.Responsavel;
+import dev.kitnet.documentarapi.domain.model.Responsavel;
 import dev.kitnet.documentarapi.service.ResponsavelService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

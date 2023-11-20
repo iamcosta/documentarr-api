@@ -1,6 +1,6 @@
 package dev.kitnet.documentarapi.service;
 
-import dev.kitnet.documentarapi.domain.entity.Responsavel;
+import dev.kitnet.documentarapi.domain.model.Responsavel;
 import dev.kitnet.documentarapi.repository.ResponsavelRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

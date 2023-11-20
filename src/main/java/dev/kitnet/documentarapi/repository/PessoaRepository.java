@@ -1,6 +1,6 @@
 package dev.kitnet.documentarapi.repository;
 
-import dev.kitnet.documentarapi.domain.entity.Pessoa;
+import dev.kitnet.documentarapi.domain.model.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

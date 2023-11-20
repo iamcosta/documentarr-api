@@ -1,6 +1,6 @@
 package dev.kitnet.documentarapi.rest.dto;
 
-import dev.kitnet.documentarapi.domain.entity.Pessoa;
+import dev.kitnet.documentarapi.domain.model.Pessoa;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 

@@ -1,7 +1,7 @@
 package dev.kitnet.documentarapi.rest.dto;
 
-import dev.kitnet.documentarapi.domain.entity.Dependente;
-import dev.kitnet.documentarapi.domain.entity.Responsavel;
+import dev.kitnet.documentarapi.domain.model.Dependente;
+import dev.kitnet.documentarapi.domain.model.Responsavel;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
