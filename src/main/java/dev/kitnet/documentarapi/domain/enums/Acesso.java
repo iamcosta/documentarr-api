@@ -1,0 +1,23 @@
+package dev.kitnet.documentarapi.domain.enums;
+
+import lombok.Getter;
+
+@Getter
+public enum Acesso {
+    CRIA_USUARIO,
+    ATUALIZA_USUARIO,
+    LISTA_USUARIO,
+    DETALHA_USUARIO,
+    CRIA_PESSOA,
+    ATUALIZA_PESSOA,
+    LISTA_PESSOA,
+    DETALHA_PESSOA,
+    CRIA_RESPONSAVEL,
+    ATUALIZA_RESPONSAVEL,
+    LISTA_RESPONSAVEL,
+    DETALHA_RESPONSAVEL,
+    CRIA_DEPENDENTE,
+    ATUALIZA_DEPENDENTE,
+    LISTA_DEPENDENTE,
+    DETALHA_DEPENDENTE
+}
