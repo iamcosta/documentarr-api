@@ -36,6 +36,11 @@ public class JwtAuthorizationFilter extends OncePerRequestFilter {
             String accessToken = jwtUtil.resolveToken(request);
             if (accessToken == null ) {
                 filterChain.doFilter(request, response);
+                errorDetails.put("message", "Sessão inválida ou expirada.");
+                response.setStatus(HttpStatus.UNAUTHORIZED.value());
+                response.setContentType(MediaType.APPLICATION_JSON_VALUE);
+
+                mapper.writeValue(response.getWriter(), errorDetails);
                 return;
             }
 
